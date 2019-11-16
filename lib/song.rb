@@ -44,7 +44,7 @@ end
   end
   def self.artist_count
     @@artists.each do |art|
-        @@artist_count[art]||=@@artists.count(art)
+        @@artist_count[art]=@@artists.count(art)
     end
     @@artist_count
   end
