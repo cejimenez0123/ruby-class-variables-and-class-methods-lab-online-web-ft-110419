@@ -37,7 +37,7 @@ end
     def self.genre_count
       @@genres.each do |gen|
         #add new songs
-          @@genre_count[gen]||=@@genres.count(gen)
+          @@genre_count[gen]=@@genres.count(gen)
       end
     @@genre_count
 
